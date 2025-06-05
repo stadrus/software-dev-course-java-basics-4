@@ -13,7 +13,13 @@ public class CollectionChoiceExercises {
         // of three strings that are known ahead of time to be "Red", "Green" and "Blue"
         // and will not change during program execution.
 
-        String[] colors;
+        String[] colors = new String[3];
+        colors[0] = "Red";
+        colors[1] = "Green";
+        colors [2] = "Blue";
+        System.out.println(colors[0]);
+        System.out.println(colors[1]);
+        System.out.println(colors[2]);
     }
 
     public void MakeStudentCollection() {
